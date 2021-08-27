@@ -1,0 +1,17 @@
+To add storylet support to your project...
+
+Add the following line to your core ink file.
+
+	INCLUDE patches/storylets.ink
+	
+Export your story from Inky by clicking "File", then "Export for web...". This will generate a folder for your project.
+
+Drag the extensions folder here into your project's folder.
+
+Add the following line immediately below "<script src="ink.js"></script>" in index.html.
+
+	<script src="patches/storylets.js"></script>
+	
+In future, you can use "Export story.js only..." if you need to make changes to your ink. 
+
+Feel free to message me on Twitter (@elliotherriman) if you run into any trouble!
